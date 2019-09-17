@@ -377,6 +377,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thrust_sum_random_numbers",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thrust_sort_random_numbers", "work\thrust_sort_random_numbers\thrust_sort_random_numbers_vs2019.vcxproj", "{A4E64999-1574-4CD8-B473-137B382C211B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thrust_vector_container_ex1", "work\thrust_vector_container_ex1\thrust_vector_container_ex1_vs2019.vcxproj", "{4661651E-4C37-4197-9289-45A3127AA0DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1055,6 +1057,10 @@ Global
 		{A4E64999-1574-4CD8-B473-137B382C211B}.Debug|x64.Build.0 = Debug|x64
 		{A4E64999-1574-4CD8-B473-137B382C211B}.Release|x64.ActiveCfg = Release|x64
 		{A4E64999-1574-4CD8-B473-137B382C211B}.Release|x64.Build.0 = Release|x64
+		{4661651E-4C37-4197-9289-45A3127AA0DE}.Debug|x64.ActiveCfg = Debug|x64
+		{4661651E-4C37-4197-9289-45A3127AA0DE}.Debug|x64.Build.0 = Debug|x64
+		{4661651E-4C37-4197-9289-45A3127AA0DE}.Release|x64.ActiveCfg = Release|x64
+		{4661651E-4C37-4197-9289-45A3127AA0DE}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1238,6 +1244,7 @@ Global
 		{97174FDA-68EB-4E52-948D-F27DD0D16E02} = {408D3738-322F-4D14-A023-1797BCA0AD53}
 		{BDB91C14-D1FA-4374-98C2-CC0D5599A756} = {3008F131-0DCF-43B2-AC66-CE42F13E35D7}
 		{A4E64999-1574-4CD8-B473-137B382C211B} = {3008F131-0DCF-43B2-AC66-CE42F13E35D7}
+		{4661651E-4C37-4197-9289-45A3127AA0DE} = {3008F131-0DCF-43B2-AC66-CE42F13E35D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3A90096-8947-4431-886E-E14AD44D47F1}

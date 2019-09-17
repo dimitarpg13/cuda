@@ -14,9 +14,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A4E64999-1574-4CD8-B473-137B382C211B}</ProjectGuid>
-    <RootNamespace>thrust_sort_random_numbers_vs2019</RootNamespace>
-    <ProjectName>thrust_sort_random_numbers</ProjectName>
+    <ProjectGuid>{4661651E-4C37-4197-9289-45A3127AA0DE}</ProjectGuid>
+    <RootNamespace>thrust_vector_container_ex1_vs2019</RootNamespace>
+    <ProjectName>thrust_vector_container_ex1</ProjectName>
     <CudaToolkitCustomDir />
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -98,8 +98,8 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="thrust_sort_random_numbers.cu" />
-    <ClCompile Include="thrust_sort_random_numbers_cpu.cpp" />
+    <CudaCompile Include="thrust_vector_container_ex1.cu" />
+    <ClCompile Include="thrust_vector_container_ex1_cpu.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
