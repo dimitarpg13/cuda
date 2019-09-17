@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Simple", "0_Simple", "{6A5D66B1-70FD-4D7A-B2BB-CFBA63329B7D}"
 EndProject
@@ -370,6 +370,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleVulkan", "2_Graphics\simpleVulkan\simpleVulkan_vs2017.vcxproj", "{4F1C2E02-C5E7-4F0A-B629-6EDC66D61F2E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conjugateGradientCudaGraphs", "7_CUDALibraries\conjugateGradientCudaGraphs\conjugateGradientCudaGraphs_vs2017.vcxproj", "{97174FDA-68EB-4E52-948D-F27DD0D16E02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work", "Work", "{3008F131-0DCF-43B2-AC66-CE42F13E35D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thrust_random_numbers", "work\thrust_sum_random_numbers\thrust_sum_random_numbers_vs2017.vcxproj", "{BDB91C14-D1FA-4374-98C2-CC0D5599A756}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1041,6 +1045,10 @@ Global
 		{97174FDA-68EB-4E52-948D-F27DD0D16E02}.Debug|x64.Build.0 = Debug|x64
 		{97174FDA-68EB-4E52-948D-F27DD0D16E02}.Release|x64.ActiveCfg = Release|x64
 		{97174FDA-68EB-4E52-948D-F27DD0D16E02}.Release|x64.Build.0 = Release|x64
+		{BDB91C14-D1FA-4374-98C2-CC0D5599A756}.Debug|x64.ActiveCfg = Debug|x64
+		{BDB91C14-D1FA-4374-98C2-CC0D5599A756}.Debug|x64.Build.0 = Debug|x64
+		{BDB91C14-D1FA-4374-98C2-CC0D5599A756}.Release|x64.ActiveCfg = Release|x64
+		{BDB91C14-D1FA-4374-98C2-CC0D5599A756}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1222,6 +1230,7 @@ Global
 		{0307D734-995B-4CB8-9429-108A3D5281C9} = {0CDB1E7B-7D6F-43F2-856D-84519696FD65}
 		{4F1C2E02-C5E7-4F0A-B629-6EDC66D61F2E} = {0CDB1E7B-7D6F-43F2-856D-84519696FD65}
 		{97174FDA-68EB-4E52-948D-F27DD0D16E02} = {408D3738-322F-4D14-A023-1797BCA0AD53}
+		{BDB91C14-D1FA-4374-98C2-CC0D5599A756} = {3008F131-0DCF-43B2-AC66-CE42F13E35D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3A90096-8947-4431-886E-E14AD44D47F1}
