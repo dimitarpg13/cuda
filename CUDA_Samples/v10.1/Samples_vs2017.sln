@@ -373,7 +373,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conjugateGradientCudaGraphs
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work", "Work", "{3008F131-0DCF-43B2-AC66-CE42F13E35D7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thrust_random_numbers", "work\thrust_sum_random_numbers\thrust_sum_random_numbers_vs2017.vcxproj", "{BDB91C14-D1FA-4374-98C2-CC0D5599A756}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thrust_sum_random_numbers", "work\thrust_sum_random_numbers\thrust_sum_random_numbers_vs2017.vcxproj", "{BDB91C14-D1FA-4374-98C2-CC0D5599A756}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thrust_sort_random_numbers", "work\thrust_sort_random_numbers\thrust_sort_random_numbers_vs2017.vcxproj", "{A4E64999-1574-4CD8-B473-137B382C211B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1049,6 +1051,10 @@ Global
 		{BDB91C14-D1FA-4374-98C2-CC0D5599A756}.Debug|x64.Build.0 = Debug|x64
 		{BDB91C14-D1FA-4374-98C2-CC0D5599A756}.Release|x64.ActiveCfg = Release|x64
 		{BDB91C14-D1FA-4374-98C2-CC0D5599A756}.Release|x64.Build.0 = Release|x64
+		{A4E64999-1574-4CD8-B473-137B382C211B}.Debug|x64.ActiveCfg = Debug|x64
+		{A4E64999-1574-4CD8-B473-137B382C211B}.Debug|x64.Build.0 = Debug|x64
+		{A4E64999-1574-4CD8-B473-137B382C211B}.Release|x64.ActiveCfg = Release|x64
+		{A4E64999-1574-4CD8-B473-137B382C211B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1231,6 +1237,7 @@ Global
 		{4F1C2E02-C5E7-4F0A-B629-6EDC66D61F2E} = {0CDB1E7B-7D6F-43F2-856D-84519696FD65}
 		{97174FDA-68EB-4E52-948D-F27DD0D16E02} = {408D3738-322F-4D14-A023-1797BCA0AD53}
 		{BDB91C14-D1FA-4374-98C2-CC0D5599A756} = {3008F131-0DCF-43B2-AC66-CE42F13E35D7}
+		{A4E64999-1574-4CD8-B473-137B382C211B} = {3008F131-0DCF-43B2-AC66-CE42F13E35D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3A90096-8947-4431-886E-E14AD44D47F1}
