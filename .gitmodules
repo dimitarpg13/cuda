@@ -1,0 +1,6 @@
+[submodule "cuda-by-example"]
+	path = cuda-by-example
+	url = https://github.com/dimitarpg13/CUDA-by-Example-source-code-for-the-book-s-examples-.git
+[submodule "professional-cuda-c-programming"]
+	path = professional-cuda-c-programming
+	url = https://github.com/dimitarpg13/professional-cuda-c-programming.git
